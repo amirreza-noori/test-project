@@ -13,8 +13,9 @@ fetch("https://www.melivecode.com/api/users")
             <span class="firstName">${fname}</span>
             <h2>last Name:</h2>
             <span class="lastName">${lname}</span>
-            </div>
-            `
+            </div>`
       )
-      .join("");
+      .join('');
   });
+
+alert("welcome");
